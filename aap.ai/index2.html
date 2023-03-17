@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>aapoon</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <br>
+        <center><img src="img/logo-big.png" width="400px">
+        <p style="font-size: 20px; line-height: 30px; color: #578e3e;">Direct/group messaging, video conferencing <br> and social media all in one app</p>
+    <br><br><br>    
+    <button onclick="getParameters()" style="border:none; background:none;"><a href="https://play.google.com/store/apps/details?id=go.socialchains.app"><img src="img/google.png" width="160px" style="margin-right: 20px; margin-left: 20px;"></a></button>
+    <button onclick="getParameters()" style="border:none; background:none;"></button><a href="https://apps.apple.com/us/app/socialchainz/id1484191346"><img src="img/apple.png" width="160px" style="margin-right: 20px; margin-left: 20px;"></a></button>
+    <br><br>
+    <div style='margin-right: auto; margin-left: auto; max-width: 450px; text-align: left;'><br>
+    <p style="font-weight: 700;">Steps to download the app using referral link</p><br>
+    <p style="font-weight: 300;">1) Click on the above playstore/app store icon</p><br>
+    <p style="font-weight: 300;">2) Download the app</p><br>
+    <p style="font-weight: 300; float: left; padding-right: 10px;">3) Click on the referral link again</p><img src="img/icon-logo.png" width="30px" style="float: left; padding-right: 10px;">
+    <p style="font-weight: 300; float: left; padding-right: 10px;">to</p> <p style="font-weight: 700;">SIGN UP</p> using referral code</p><br>
+    <p style="font-weight: 300;">4) Complete the signup process</p><br>
+    <p style="font-weight: 300;">5) The referral code will be autofilled</p><br><br>
+    <h1 style="color: #e35c2d; font-weight: 700; text-align: center;">Keep Buzzing !!!!</h1>
+
+</div>
+</center> 
+        <script>
+        let getParameters=()=>{
+		let urlString=window.location.href;
+         let paramsString =urlString.split('ai/?');
+            console.log(paramsString[paramsString.length -1]);
+            navigator.clipboard.writeText(paramsString[paramsString.length -1])
+	}
+   
+        </script>
+    </body>
+</html>

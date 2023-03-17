@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+    {
+      "appID": "6JXMJW73WS.com.company.SocialChainsappIOS",
+      "paths": ["/*"]
+    },
+    {
+      "appID": "6JXMJW73WS.com.socialchainz.io",
+      "paths": ["/*"]
+    }
+    ]
+  }
+}
